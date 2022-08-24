@@ -1,12 +1,12 @@
 {
-  "name": "camel.case.do",
+  "name": "snake.case.do",
   "version": "1.0.0",
-  "description": "Convert JSON Object Keys to camelCase",
-  "repository": "git@github.com:drivly/camel.case.do.git",
+  "description": "Convert JSON Object Keys to snake_case",
+  "repository": "git@github.com:drivly/snake.case.do.git",
   "license": "MIT",
   "module": "worker.js",
   "dependencies": {
-    "camelcase-keys": "^8.0.1"
+    "snakecase-keys": "^5.4.2"
   },
   "scripts": {
     "dev": "wrangler dev worker.js",
