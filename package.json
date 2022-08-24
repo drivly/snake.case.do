@@ -1,0 +1,21 @@
+{
+  "name": "camel.case.do",
+  "version": "1.0.0",
+  "description": "Convert JSON Object Keys to camelCase",
+  "repository": "git@github.com:drivly/camel.case.do.git",
+  "license": "MIT",
+  "module": "worker.js",
+  "dependencies": {
+    "camelcase-keys": "^8.0.1"
+  },
+  "scripts": {
+    "dev": "wrangler dev worker.js",
+    "deploy": "wrangler publish worker.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0",
+    "wrangler": "^0.0.27"
+  }
+}
