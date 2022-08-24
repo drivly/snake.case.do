@@ -1,5 +1,6 @@
-# camel.case.do
-Transform JSON Object Keys to camelCase
+# [snake.case.do](https://snake.case.do)
+
+Transform JSON Object Keys to snake_case
 
 <http://snakecase.do.cf/pokeapi.co/api/v2/pokemon/1/>
 
