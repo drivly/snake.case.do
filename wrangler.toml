@@ -1,5 +1,5 @@
 name = "snake-case-do"
 account_id = "b6641681fe423910342b9ffa1364c76d"
-route = { pattern = "snake.case.do/*", zone_id = "d8f313be58d4edc5f0f586b13f033d62" }
+route = { pattern = "*snake.case.do/*", zone_id = "d8f313be58d4edc5f0f586b13f033d62" }
 main = "worker.js"
 compatibility_date = "2022-08-23"
